@@ -1,0 +1,25 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.summary-content{
+    span{
+        
+        color:v.$azul;
+        font-weight: v.$bold;
+        font-size: 2.4rem;
+
+    }
+
+    p{
+        margin-bottom: 1rem;
+    }
+}
+
+
+.service-container{
+
+    border-bottom: 1px solid v.$gris;
+
+
+}

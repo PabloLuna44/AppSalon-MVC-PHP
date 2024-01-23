@@ -1,0 +1,1 @@
+function startApp(){FindDate()}function FindDate(){document.querySelector("#fecha").addEventListener("input",(function(t){const n=t.target.value;window.location="?fecha="+n}))}document.addEventListener("DOMContentLoaded",(function(){startApp()}));
